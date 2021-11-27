@@ -15,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .header_container {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -60,7 +60,7 @@ body {
 }
 
 #actions {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   border-spacing: 0;
   border-collapse: collapse;
@@ -80,7 +80,7 @@ body {
 }
 
 .nav_item {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   border-spacing: 0;
   border-collapse: collapse;
@@ -104,7 +104,7 @@ body {
 }
 
 .nav_icon {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   border-spacing: 0;
   border-collapse: collapse;
@@ -214,7 +214,7 @@ body {
 }
 
 #hs {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   border-spacing: 0;
   border-collapse: collapse;
@@ -233,7 +233,7 @@ body {
 }
 
 .search {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   border-spacing: 0;
   border-collapse: collapse;
@@ -284,7 +284,7 @@ body {
 }
 
 #page_center {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -297,14 +297,13 @@ body {
   width: 100%;
   position: relative;
   z-index: 3;
-  background-color: #f3f3f3;
   min-height: 100%;
   -webkit-backface-visibility: hidden;
   transition: transform 0.25s ease-in-out,height 0s 0.5s;
 }
 
 #trust_banner {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -325,7 +324,7 @@ body {
 }
 
 #trust_banner > div {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -356,7 +355,7 @@ body {
 }
 
 #viewport {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -368,12 +367,11 @@ body {
   vertical-align: baseline;
   position: relative;
   height: 100%;
-  background-color: #E9E7E3;
   min-width: 1070px;
 }
 
 #content_wrapper {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -381,14 +379,13 @@ body {
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
-  background-color: #f3f3f3;
   margin: 1em auto;
   max-width: 1050px;
   padding: 71px 1em 1em;
 }
 
 #content_inner {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -405,7 +402,7 @@ body {
 }
 
 .pre-content {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -414,7 +411,6 @@ body {
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
-  background-color: #FFF;
   border-bottom: none;
   margin: 0;
   border-radius: 4px 4px 0 0;
@@ -510,7 +506,7 @@ body {
 }
 
 #bodyContent {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -524,7 +520,7 @@ body {
 }
 
 #bodyContentText {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-locale: "en";
@@ -541,7 +537,7 @@ body {
 }
 
 #bodyContentOutput {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -556,7 +552,7 @@ body {
 
 
 #intro {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -565,7 +561,6 @@ body {
   font: inherit;
   vertical-align: baseline;
   position: relative;
-  background-color: #FFF;
   font-size: 1em;
   margin: 0;
   border-radius: 0 0 4px 4px;
@@ -730,7 +725,7 @@ body {
 }
 
 #sidebar {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   background: none;
@@ -748,7 +743,7 @@ body {
 }
 
 .clearall {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   font: inherit;
   font-size: 100%;
@@ -798,7 +793,7 @@ body {
   font: inherit;
   vertical-align: baseline;
   overflow: auto;
-  color: #545454;
+  color: inherit;
   font-size: .85em;
   margin-bottom: .75rem;
 }
@@ -806,7 +801,7 @@ body {
 #byline_info {
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
-  color: #545454;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -903,7 +898,7 @@ body {
 }
 
 #mf-section-0 {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -917,7 +912,7 @@ body {
 }
 
 #mf-section-0 > p {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -938,11 +933,10 @@ body {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-  background-color: #FFF;
   margin: 0 0 15px 0;
   position: relative;
   border-radius: 4px;
-  color: #686868;
+  color: inherit;
   font-size: 13px;
   line-height: normal;
   padding: 0;
@@ -951,7 +945,7 @@ body {
 
 .sp_top_box {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -960,14 +954,13 @@ body {
   vertical-align: baseline;
   padding: 10px;
   position: relative;
-  background-color: #f0f5ec;
   border-radius: 4px 4px 0 0;
   border: 1px solid #ECEBE8;
 }
 
 .coauthor_avatar_badge {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   padding: 0;
@@ -985,7 +978,7 @@ body {
 
 .ar_avatar {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1006,7 +999,7 @@ body {
 
 .sp_expert_text {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1048,7 +1041,7 @@ body {
   vertical-align: baseline;
   font-size: .85em;
   font-weight: bold;
-  color: #545454;
+  color: inherit;
 }
 
 .sp_expert_name {
@@ -1083,7 +1076,7 @@ body {
 
 .sp_inner {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1097,7 +1090,7 @@ body {
 
 .sp_box {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1157,7 +1150,7 @@ body {
   font-size: 12px;
   font-weight: bold;
   display: block;
-  color: #545454;
+  color: inherit;
 }
 
 #sp_star_box {
@@ -1170,16 +1163,15 @@ body {
   margin: 0 0 15px 0;
   position: relative;
   border-radius: 4px;
-  color: #686868;
+  color: inherit;
   font-size: 13px;
   line-height: 1.3em;
-  background-color: #FFF;
   padding: 0;
 }
 
 .sp_box {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1199,7 +1191,7 @@ body {
 
 .sp_helpful_statement {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1213,7 +1205,7 @@ body {
 
 .sp_helpful_statement > span {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1227,7 +1219,7 @@ body {
 
 .sp_star_section_upper {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1242,7 +1234,7 @@ body {
 
 .sp_star_container {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   margin: 0;
   padding: 0;
@@ -1260,7 +1252,7 @@ body {
 
 .sp_helpful_icon_star {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   margin: 0;
   padding: 0;
@@ -1277,7 +1269,7 @@ body {
 
 .sp_helpful_lower {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1316,17 +1308,16 @@ body {
   line-height: normal;
   margin: 3px 0 15px 0;
   padding: 0;
-  color: #686868;
+  color: inherit;
   font-size: 12px;
   font-weight: bold;
   position: relative;
-  background-color: white;
   max-width: 300px;
 }
 
 #reviews {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1339,7 +1330,7 @@ body {
 
 .ur_review {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1348,14 +1339,13 @@ body {
   font-size: 100%;
   vertical-align: baseline;
   margin-bottom: 1px;
-  background-color: #fff;
   padding: 15px 20px;
   border-radius: 4px;
 }
 
 .ur_nav_container {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1364,7 +1354,6 @@ body {
   font-size: 100%;
   vertical-align: baseline;
   margin-bottom: 10px;
-  background-color: #FFF;
   margin-top: -6px;
   padding: 0px 20px 15px;
   min-height: 1em;
@@ -1373,7 +1362,7 @@ body {
 
 .ur_user {
   -webkit-font-smoothing: antialiased;
-  color: #686868;
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   background: none;
   margin: 0;
@@ -1414,7 +1403,7 @@ body {
   margin: 12px 0 0;
   margin-top: 0px;
   font-size: 13px;
-  color: #545454;
+  color: inherit;
   font-weight: bold;
 }
 
@@ -1447,7 +1436,7 @@ body {
   font-weight: normal;
   font-size: 13px;
   line-height: 18px;
-  color: #545454;
+  color: inherit;
   margin-top: 7px;
 }
 
@@ -1491,12 +1480,11 @@ body {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-  background-color: #FFF;
   padding: 16px;
   margin: 0 0 15px 0;
   position: relative;
   border-radius: 4px;
-  color: #686868;
+  color: inherit;
   font-size: 13px;
   line-height: 1.3em;
   padding-right: 0px;
@@ -1512,7 +1500,7 @@ body {
   vertical-align: baseline;
   font-size: 13px;
   font-weight: bold;
-  color: #686868;
+  color: inherit;
   margin-bottom: 11px;
   padding: 0px;
   background: none;
@@ -1568,7 +1556,7 @@ body {
 }
 
 #mf-section-1 {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -1582,7 +1570,7 @@ body {
 }
 
 .section {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -1608,7 +1596,6 @@ body {
   vertical-align: baseline;
   color: #222;
   line-height: 1.3;
-  background-color: #FFF;
   font-weight: bold;
   font-size: 1.25em;
   box-sizing: border-box;
@@ -1719,7 +1706,6 @@ body {
   font-weight: bold;
   font-size: 12.5px;
   color: #333333;
-  background-color: #F6F8F7;
   padding: .45em 1.1rem;
   border-radius: 8px;
   margin: 10px 10px 0 0;
@@ -1728,7 +1714,7 @@ body {
 }
 
 #steps_1 {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -1738,13 +1724,12 @@ body {
   vertical-align: baseline;
   border-radius: 0 0 4px 4px;
   font-size: 16px;
-  background-color: inherit;
   padding: 0;
   border: none;
 }
 
 .steps_list_2 {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -1759,7 +1744,7 @@ body {
 }
 
 #step-id-00 {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -webkit-tap-highlight-color: transparent;
@@ -1769,7 +1754,6 @@ body {
   vertical-align: baseline;
   font-size: 16px;
   list-style: none;
-  background-color: #FFF;
   border-radius: 4px;
   padding: 20px;
   clear: both;
@@ -1800,7 +1784,7 @@ body {
 }
 
 .mwimg {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   list-style: none;
@@ -1857,7 +1841,7 @@ body {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-  color: #545454;
+  color: inherit;
   padding: 0 15px 0 0;
   float: left;
   font-weight: bold;
@@ -1867,7 +1851,7 @@ body {
 }
 
 .step {
-  color: #545454;
+  color: inherit;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   list-style: none;
