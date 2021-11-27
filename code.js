@@ -137,10 +137,13 @@ function onYouTubeIframeAPIReady() {
       'onReady': onPlayerReady,
     }
   })
+
+  console.log(player);
 }
 
 // This function will be called when the API is fully loaded
 function onPlayerReady(e) {
+  console.log('mmmm')
   // check the video time every 1 second.
   const timer = setInterval(() => {
     const curVideoTime = player.getCurrentTime()
@@ -148,6 +151,7 @@ function onPlayerReady(e) {
     // once it reaches the part jun is about to be murdered by dania, start edgifying the site
     if (curVideoTime >= 30 && curVideoTime <= 33) {
       edgify();
+      console.log('testing!');
       clearInterval(timer);
     }
   }, 1000)
@@ -156,7 +160,7 @@ function onPlayerReady(e) {
 // Load YouTube Frame API
 (function() { // Closure, to not leak to the scope
   var s = document.createElement("script");
-  s.src = (location.protocol == 'https:' ? 'https' : 'http') + "://www.youtube.com/player_api";
+  s.src =  "https://www.youtube.com/player_api";
   var before = document.getElementsByTagName("script")[0];
   before.parentNode.insertBefore(s, before);
 })();
