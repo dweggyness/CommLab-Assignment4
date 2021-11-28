@@ -19,7 +19,7 @@ var ranString = function(amt) {
 
 var startScramble = function(str) {
   var count = str.length;
-  var delay = 80;
+  var delay = 120;
   var letterDelay = 15;
   
   step2Title.innerHTML = '';
@@ -97,10 +97,6 @@ function edgify() {
     $('.nav_item .nav').css('color', "#111")
     $('.sp_helpful_icon_star').css('filter', "brightness(0) saturate(100%) invert(25%) sepia(47%) saturate(2746%) hue-rotate(343deg) brightness(89%) contrast(79%)")
   }, 4500)
-
-  setTimeout(() => {
-    showAlert();
-  }, 10500)
 }
 
 function getFrameID(id){
@@ -135,10 +131,12 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('step2YoutubePlayer', {
     events: {
       'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
     }
   })
 
   player.addEventListener("onReady", "onPlayerReady");
+  player.addEventListener("onStateChange", "onPlayerStateChange");
 }
 
 // This function will be called when the API is fully loaded
@@ -151,11 +149,20 @@ function onPlayerReady(e) {
     const curVideoTime = player.playerInfo.currentTime || 0;
 
     // once it reaches the part jun is about to be murdered by dania, start edgifying the site
-    if (curVideoTime >= 30 && curVideoTime <= 33) {
+    if (curVideoTime >= 77) {
       edgify();
       clearInterval(timer);
     }
   }, 1000)
+}
+
+// when video ends, show alert after 3s. only do this once.
+var done = false;
+function onPlayerStateChange(event) {
+  if (event.data === 0 && !done) {
+    setTimeout(() => showAlert(), 3000);
+    done = true;
+  }
 }
 
 // Load YouTube Frame API
