@@ -138,20 +138,21 @@ function onYouTubeIframeAPIReady() {
     }
   })
 
-  console.log(player);
+  player.addEventListener("onReady", "onPlayerReady");
 }
 
 // This function will be called when the API is fully loaded
+var timer;
 function onPlayerReady(e) {
-  console.log('mmmm')
+  clearInterval(timer);
+
   // check the video time every 1 second.
-  const timer = setInterval(() => {
-    const curVideoTime = player.getCurrentTime()
+  timer = setInterval(() => {
+    const curVideoTime = player.playerInfo.currentTime || 0;
 
     // once it reaches the part jun is about to be murdered by dania, start edgifying the site
     if (curVideoTime >= 30 && curVideoTime <= 33) {
       edgify();
-      console.log('testing!');
       clearInterval(timer);
     }
   }, 1000)
