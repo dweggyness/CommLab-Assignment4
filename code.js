@@ -160,7 +160,7 @@ function onPlayerReady(e) {
 var done = false;
 function onPlayerStateChange(event) {
   if (event.data === 0 && !done) {
-    setTimeout(() => showAlert(), 3000);
+    setTimeout(() => showAlert(), 6000);
     done = true;
   }
 }
