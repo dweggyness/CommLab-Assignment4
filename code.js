@@ -19,8 +19,8 @@ var ranString = function(amt) {
 
 var startScramble = function(str) {
   var count = str.length;
-  var delay = 120;
-  var letterDelay = 15;
+  var delay = 130;
+  var letterDelay = 18;
   
   step2Title.innerHTML = '';
   
@@ -144,7 +144,7 @@ var timer;
 function onPlayerReady(e) {
   clearInterval(timer);
 
-  // check the video time every 1 second.
+  // check the video time every 0.5 seconds.
   timer = setInterval(() => {
     const curVideoTime = player.playerInfo.currentTime || 0;
 
@@ -153,7 +153,7 @@ function onPlayerReady(e) {
       edgify();
       clearInterval(timer);
     }
-  }, 1000)
+  }, 500)
 }
 
 // when video ends, show alert after 3s. only do this once.
